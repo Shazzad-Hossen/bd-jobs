@@ -3,6 +3,7 @@
 
 This a simpole project, where I tried to implement a landing page ,from where you can see job category and available jobs. Tf you click on View details of a job you will be navigate to new page name job details, and you can see the details about the job and can find an apply button at the bottom right side. You can find applied job list just by clicking the Applied job option from nav bar. then you can find all jobs you applied and can also filter the jobs. In the statistics page there is a Radar chart and in blog page you can find there 4 blogs which contains question and answer about sob important topic of React.js .
 ## Live Demo
+https://bd-jobs.netlify.app/
 
 ## Available Scripts
 ### `npm start` - to run the project
