@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    margin: 0 0;
+}
+.header-bg {
+    
+    background-image:  url('./assets/Allimages/Vector.png'),url('./assets/Allimages/Vector-1.png');
+    background-repeat: no-repeat;
+    background-position: left bottom, right top;
+    
+
+}
+.header-bg1 {
+    
+   @apply bg-gradient-to-r from-[#7e8ffe1a]  to-[#9873FF1a]
+
+}
+.active {
+    @apply text-transparent bg-clip-text bg-gradient-to-br from-[#7E90FE]  to-[#9873FF]
+
+}
+
+
+.primary-btn {
+    @apply bg-gradient-to-r from-[#7E90FE]  to-[#9873FF] text-white p-3 rounded-md font-semibold
+}
+.gradientText {
+    @apply text-transparent bg-clip-text bg-gradient-to-br from-[#7E90FE]  to-[#9873FF]
+}

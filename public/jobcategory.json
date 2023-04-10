@@ -1,0 +1,22 @@
+[
+  {
+    "img": "https://shazzad-hossen.github.io/image-host/images/logo/accounts.png",
+    "title": "Account & Finance",
+    "jobs": "300 Jobs Available"
+  },
+  {
+    "img": "https://shazzad-hossen.github.io/image-host/images/logo/business.png",
+    "title": "Creative Design",
+    "jobs": "100+ Jobs Available"
+  },
+  {
+    "img": "https://shazzad-hossen.github.io/image-host/images/logo/marketing.png",
+    "title": "Marketing & Sales",
+    "jobs": "150 Jobs Available"
+  },
+  {
+    "img": "https://shazzad-hossen.github.io/image-host/images/logo/engineering.png",
+    "title": "Engineering Job",
+    "jobs": "224 Jobs Available"
+  }
+]
