@@ -39,10 +39,10 @@ const Header = () => {
             }
             </div>
             
-         </div>
+         </div> 
          {
             location.pathname!=='/'? <div className=" text-4xl text-[#525252] font-anton text-center py-20"> {
-                location.pathname==='/appliedjobs'? 'Applied Job': (location.pathname==='/statistics'? 'Statistics': (location.pathname==='/blogs'? 'Blogs': ''))
+                location.pathname==='/appliedjobs'? 'Applied Job': (location.pathname==='/statistics'? 'Statistics': (location.pathname==='/blogs'? 'Blogs': (location.pathname.slice(0,8)==='/details'? 'Job Details': '')))
             }   
             </div> : false
          }

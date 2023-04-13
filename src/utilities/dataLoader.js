@@ -7,7 +7,7 @@ export const dataLoader=async()=>{
     
 }
 export const jobLoader=async(jID)=>{
-    const data= await fetchData('jobs.json');
+    const data= await fetchData('/jobs.json');
     const job=data.find(j=>j.id===Number(jID))
     return  job;
     

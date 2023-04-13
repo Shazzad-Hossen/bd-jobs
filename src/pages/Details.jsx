@@ -9,6 +9,7 @@ import { addToLocalStorage } from '../utilities/localStorage';
 
 const Details = () => {
     const data= useLoaderData();
+    
     const {id, logo, des, res, edu, exp, salary, title, contact, location ,company,type1,type2, }= data;
     
     const applyjobHandler=()=>{
