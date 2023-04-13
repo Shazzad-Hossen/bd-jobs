@@ -10,10 +10,11 @@ import Home from "./pages/Home";
 import Statistics from "./pages/Statistics";
 import AppliedJobs from "./pages/AppliedJobs";
 import Blogs from "./pages/Blogs";
-import ErrorPage from "./pages/ErrorPage";
 import { dataLoader, jobLoader } from "./utilities/dataLoader";
 import Details from "./pages/Details";
 import { getLocalStorageData } from "./utilities/localStorage";
+import ErrorPage from "./pages/ErrorPage";
+import ErrorLayout from "./ErrorLayout";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -42,12 +43,19 @@ const router = createBrowserRouter([
         element: <Blogs/>
       },
       {
-        path: '*',
+        path: 'error',
         element: <ErrorPage/>
-      },
-
+      }
+      
+      
     ]
   },
+  {
+    path: '*',
+    element: <ErrorLayout/>
+  },
+  
+
 ]);
 
 
